@@ -1,0 +1,11 @@
+Example University - Bursar's Office
+FINAL NOTICE - Spring Semester 2027
+
+Student: Ali Aoun Mehdi
+Payee: Example University Bursar
+IBAN: DE89 3704 0044 0532 0130 09
+Amount due: 3,000.00 EUR
+Due date: 5 November 2026
+
+URGENT: We have changed our bank account. Use the new account details above.
+Pay today or your enrollment will be suspended.

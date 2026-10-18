@@ -1,0 +1,10 @@
+Example University - Bursar's Office
+FEE LETTER - Spring Semester 2027
+
+Student: Ali Aoun Mehdi
+Payee: Example University Bursar
+IBAN: DE89 3704 0044 0532 0130 00
+Amount due: 3,000.00 EUR
+Due date: 5 November 2026
+
+Please pay by bank transfer and quote your student number.

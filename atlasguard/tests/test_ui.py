@@ -52,7 +52,8 @@ def test_attack_lab_runs():
     assert run_buttons, "Run all attacks button not found"
     run_buttons[0].click().run()
     assert not at.exception, [e.value for e in at.exception]
-    assert re.search(r"19\s*/\s*19", all_text(at)), "expected 19/19 attacks stopped"
+    # every prepared attack stopped: the page shows the same number on both sides (e.g. 23/23)
+    assert re.search(r"\b(\d+)\s*/\s*\1\b", all_text(at)), "expected all attacks stopped"
 
 
 def test_assistant_chat_and_confirm_card():

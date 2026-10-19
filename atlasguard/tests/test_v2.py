@@ -94,7 +94,7 @@ def test_new_payee_first_payment_cap():
 def test_all_attacks_pass_and_known_gap_reported():
     res = attacks.run_attacks()
     assert res["passed"] == res["total"], [r for r in res["results"] if not r["passed"] and not r["known_limit"]]
-    assert len(res["known_gaps"]) == 1
+    assert len(res["known_gaps"]) == 0
 
 
 def test_evaluation_all_pass():
